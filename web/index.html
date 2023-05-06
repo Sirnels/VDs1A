@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="ViewDucts is a Social E-commerce where you can socialize with friends and family, shop for your favorite products, and get paid for ducting(sharing) the products you bought with your friends and family">
+  <meta name="google-site-verification" content="2b2tP8Pj-fdWOKY84UrX-lBzQ3rCmtV-Z15dUw4FsT0" />
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="ViewDucts">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>ViewDucts</title>
+  <link rel="manifest" href="manifest.json">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-100009839-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){window.dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-100009839-1');
+</script>
+  <!-- <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '2900210045';
+  </script> -->
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  <script src="splash/splash.js"></script>
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+  <link rel="stylesheet" type="text/css" href="splash/style.css">
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    });
+  </script>
+    <script>
+      FirebaseConfig={
+          apiKey: 'AIzaSyC-3FYWQIjcQA6tw8YJtqE8hQiYaEBWKZU',
+          appId: '1:649577760677:web:71cc1ebde88920c26aca4c',
+          messagingSenderId: '649577760677',
+          projectId: 'viewducts-backend',
+          authDomain: 'viewducts-backend.firebaseapp.com',
+          databaseURL: 'https://viewducts-backend.firebaseio.com',
+          storageBucket: 'viewducts-backend.appspot.com',
+          measurementId: 'G-QKZ4QDCVGS',
+      };
+      
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/appwrite@10.0.0"></script>
+</body>
+</html>

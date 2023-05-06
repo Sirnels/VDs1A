@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "649577760677",
+    "firebase_url": "https://viewducts-backend.firebaseio.com",
+    "project_id": "viewducts-backend",
+    "storage_bucket": "viewducts-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649577760677:android:4956a0c31a0432886aca4c",
+        "android_client_info": {
+          "package_name": "com.viewducts.viewducts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649577760677-g78l7nvt343223gkd5m0bjeo9rshnme3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.viewducts.viewducts",
+            "certificate_hash": "ae1410e6d7fe6eadf49c49dcb5499f816d04777d"
+          }
+        },
+        {
+          "client_id": "649577760677-luu7fphntj82l2gfc8m18rm0ssjscp0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtCr1SgjQTwcj51WlP9Jlh7LlGVNkyh4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649577760677-luu7fphntj82l2gfc8m18rm0ssjscp0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
