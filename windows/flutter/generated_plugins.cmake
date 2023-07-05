@@ -4,19 +4,23 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
   audioplayers_windows
-  connectivity_plus_windows
-  desktop_webview_auth
   emoji_picker_flutter
-  file_saver
   file_selector_windows
-  flutter_secure_storage_windows
-  local_auth_windows
+  firebase_core
+  flutter_meedu_videoplayer
+  flutter_webrtc
+  fullscreen_window
+  media_kit_libs_windows_video
+  media_kit_video
   permission_handler_windows
+  screen_brightness_windows
+  screen_retriever
   url_launcher_windows
-  webview_windows
+  window_manager
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
+  media_kit_native_event_loop
 )
 
 set(PLUGIN_BUNDLED_LIBRARIES)
